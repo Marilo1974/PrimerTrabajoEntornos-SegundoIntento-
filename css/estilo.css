@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo de la tarjeta del formulario */
+form {
+    width: 100%;
+    max-width: 380px;
+}
+
+fieldset {
+    background: #ffffff;
+    border: none;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Título del fieldset (Leyenda) */
+legend {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Agrupadores para separar los campos */
+.input-group {
+    margin-bottom: 20px;
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #4a5568;
+}
+
+/* Campos de texto y contraseña */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    outline: none;
+    background-color: #f8fafc;
+}
+
+/* Efecto al hacer foco (clic) en los inputs */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #3b82f6;
+    background-color: #fff;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+/* Botón de envío */
+input[type="submit"] {
+    width: 100%;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    margin-top: 10px;
+}
+
+/* Efecto hover y active en el botón */
+input[type="submit"]:hover {
+    background-color: #2563eb;
+}
+
+input[type="submit"]:active {
+    transform: scale(0.98);
+}
